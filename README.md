@@ -1,15 +1,15 @@
-# SAE développement Web - [VroumVroumGo](https://lucasproject25.github.io/VroumVroumGo/Site/index.html)
+# SAE Développement Web - [VroumVroumGo](https://lucasproject25.github.io/VroumVroumGo/Site/index.html)
 
-## Présentation 
+## Présentation
 
-Ce dépôt correspond à un site web créé en **HTML/CSS/JS** dans le cadre d'une **SAÉ (Situation d'Apprentissage et Évaluation)** dans un groupe de 4 étudiants. Ce site présente des **informations** concernant l'entreprise BlaBlaCar et sert de **vitrine pour présenter l'entreprise, ses activités, son organisation et son historique**. 
+Ce dépôt contient un site web développé en **HTML/CSS/JS** dans le cadre d'une **SAÉ (Situation d'Apprentissage et d'Évaluation)** par un groupe de quatre étudiants. Le site présente diverses **informations sur l'entreprise BlaBlaCar** et sert de **vitrine pour exposer ses activités, son organisation et son histoire**.
 
-Le nom de notre site s'appelle [VroumVroumGo](https://lucasproject25.github.io/VroumVroumGo/Site/index.html) car il nous a été imposés de choisir un nom d'entreprise ainsi qu'un logo, afin de présenter BlaBlaCar.
+Le nom **VroumVroumGo** a été choisi pour le site, accompagné d'un logo créé pour l'occasion, afin de mettre en avant BlaBlaCar de manière unique et originale.
 
-## Choix de conception  
+## Choix de conception
 
-Pour la conception du site, nous nous sommes inspirés du site officiel de [BlaBlaCar](https://www.blablacar.fr/), une template sur CodePen, ["Bistro café délices"](https://www.bistrocafedelices.com) pour la sobriété et l'élégence (boutons et images de fond) et nous avons pris comme référence la charte de ["ROSA"](https://codepen.io/Sir_thirrygolooo/pen/PoXKOrE), une template également sur CodePen.
+Pour la conception du site, nous nous sommes inspirés du site officiel de [BlaBlaCar](https://www.blablacar.fr/) ainsi que de la sobriété et de l'élégance du modèle "Bistro Café Délices" sur CodePen, utilisé pour les boutons et les images de fond. Nous avons également suivi la charte graphique de ["ROSA"](https://codepen.io/Sir_thirrygolooo/pen/PoXKOrE), un autre modèle sur CodePen.
 
-## Ma réalisation
+## Ma contribution
 
-Lors de ce projet, j'ai participé à la conception de la page des [services](https://lucasproject25.github.io/VroumVroumGo/Site/services.html) de *VroumVroumGo*, elle affiche et décrit les différents services que propose l'entreprise *BlaBlaCar*.
+Dans le cadre de ce projet, j'ai été responsable de la création de la page [Services](https://lucasproject25.github.io/VroumVroumGo/Site/services.html) de *VroumVroumGo*, qui présente et décrit les différents services proposés par *BlaBlaCar*.
