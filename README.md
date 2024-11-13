@@ -10,6 +10,6 @@ Pour la conception du site, nous nous sommes inspirés du site officiel de [BlaB
 
 ## Ma réalisation
 
-Lors de ce projet, j'ai participé à la conception de la page des services de VroumVroumGo, elle affiche et décrit les différents services que propose l'entreprise *BlaBlaCar*.
+Lors de ce projet, j'ai participé à la conception de la page des services de *VroumVroumGo*, elle affiche et décrit les différents services que propose l'entreprise *BlaBlaCar*.
 
 Pour accéder directement à ma page : [Services](https://lucasproject25.github.io/VroumVroumGo/Site/services.html)
