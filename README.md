@@ -12,4 +12,6 @@ Pour la conception du site, nous nous sommes inspirés du site officiel de BlaBl
 
 Lors de ce projet, j'ai participé à la conception de la page des services de notre site. Cette page affichait les différents services que proposait l'entreprise de **BlaBlaCar**.
 
+Pour accéder directement à ma page : [Services](https://lfulcran-iut90.github.io/S1-2023-BlaBlaCar/Site/services.html)
+
 ***
