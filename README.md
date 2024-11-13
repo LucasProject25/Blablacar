@@ -1,4 +1,4 @@
-# SAE développement Web
+# SAE développement Web - [VroumVroumGo](https://lucasproject25.github.io/VroumVroumGo/Site/index.html)
 
 ## Présentation 
 
@@ -10,8 +10,6 @@ Pour la conception du site, nous nous sommes inspirés du site officiel de [BlaB
 
 ## Ma réalisation
 
-Lors de ce projet, j'ai participé à la conception de la page des services de notre site. Cette page affichait les différents services que proposait l'entreprise de **BlaBlaCar**.
+Lors de ce projet, j'ai participé à la conception de la page des services de notre site. Cette page affichait les différents services que propose l'entreprise de **BlaBlaCar**.
 
 Pour accéder directement à ma page : [Services](https://lucasproject25.github.io/VroumVroumGo/Site/services.html)
-
-***
