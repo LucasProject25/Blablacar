@@ -12,6 +12,4 @@ Pour la conception du site, nous nous sommes inspirés du site officiel de BlaBl
 
 Lors de ce projet, j'ai participé à la conception de la page des services de notre site. Cette page affichait les différents services que proposait l'entreprise de **BlaBlaCar**.
 
-![capture d'écran de la conformité de la page](Site/Docs/capture_services.png)
-
 ***
