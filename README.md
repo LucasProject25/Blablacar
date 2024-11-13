@@ -6,7 +6,7 @@ Ce dépôt correspond à un site web créé en **HTML/CSS/JS** dans le cadre d'u
 
 ## Choix de conception  
 
-Pour la conception du site, nous nous sommes inspirés du site officiel de [BlaBlaCar](https://www.blablacar.fr/), une template sur CodePen, ["Bistro café délices"](https://www.bistrocafedelices.com) pour la sobriété et l'élégence (boutons et images de fond) et nous avons pris comme référence la charte de ["ROSA"](https://codepen.io/Sir_thirrygolooo/pen/PoXKOrE), une template également sur CodePen disponible.
+Pour la conception du site, nous nous sommes inspirés du site officiel de [BlaBlaCar](https://www.blablacar.fr/), une template sur CodePen, ["Bistro café délices"](https://www.bistrocafedelices.com) pour la sobriété et l'élégence (boutons et images de fond) et nous avons pris comme référence la charte de ["ROSA"](https://codepen.io/Sir_thirrygolooo/pen/PoXKOrE), une template également sur CodePen.
 
 ## Ma réalisation
 
