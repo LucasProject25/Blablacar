@@ -2,7 +2,7 @@
 
 ## Présentation
 
-Ce dépôt contient un site web développé en **HTML/CSS/JS** dans le cadre d'une **SAÉ (Situation d'Apprentissage et d'Évaluation)** dans un groupe de quatre étudiants. Le site présente diverses **informations sur l'entreprise BlaBlaCar** et sert de **vitrine pour exposer ses activités, son organisation et son histoire**.
+Ce dépôt contient un site web développé en **HTML/CSS/JS**, dans un groupe de quatre étudiants, dans le cadre d'une **SAÉ (Situation d'Apprentissage et d'Évaluation)**. Le site présente diverses **informations sur l'entreprise BlaBlaCar** et sert de **vitrine pour exposer ses activités, son organisation et son histoire**.
 
 Le nom **VroumVroumGo** a été choisi pour le site, accompagné d'un logo créé pour l'occasion, afin de mettre en avant BlaBlaCar de manière unique et originale.
 
