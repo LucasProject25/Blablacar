@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<!-- Toutes les images utilisées ne sont pas définitives et seront changées par la suite elles sont la histoire de 
+meubler et de se représenter pour leur comportement et les proportions -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>VroumVroumGo - BlaBlaCar</title>
+    <meta name="description" content="BlaBlaBla zbiiii">
+    <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit = no">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="./src/images/logo_vroum_1.ico" type="image/x-icon">
+    
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!-- liens  -->
+    <link rel="stylesheet" href="./src/styles/style_home.css">
+
+    <!-- Libraire JS Animate On Scroll (AOS) pour aniations d'images -->
+    <link href="./src/styles/aos.css" rel="stylesheet">
+</head>
+
+<body class="stop-scroll unselectable">
+
+  <!--Debut Dots (trois petits pts de navigation)-->
+  <div class="dots">
+      <div class="active one" data-x="header"></div>
+      <div class="two" data-x=".partie1"></div>
+      <div class="three" data-x=".fixed-image"></div>
+  </div>
+  <!--Fin Dots-->
+
+ <!--Debut Header-->
+  <header>
+      <nav>
+          <div class="logo">
+              <a href="index.html"><img src="src/images/logo_head_2.svg" alt="Logo"></a>
+          </div>
+
+          <!-- Trois barres pour menu burger responsive -->
+          <div class="toggle">
+              <span class="first"></span>
+              <span class="middle"></span>
+              <span class="last"></span>
+          </div>
+
+          <!-- Navbar -->
+          <!-- A savoir que lorsque le JS sera actif, la couleur changera avec le défilement donc blanc -> noir pour plus de visibilité -->
+          <div class="navigation-bar">
+              <ul>
+                  <li class="active"><a href="./index.html">Accueil<span class="underline"></span></a></li>
+                  <li><a href="./services.html">Services<span class="underline"></span></a></li>
+                  <li><a href="./histoire.html">Histoire<span class="underline"></span></a></li>
+                  <li><a href="./statistiques.html">Statistiques<span class="underline"></span></a></li>
+                  <li><a href="./economie.html">Économie<span class="underline"></span></a></li>
+              </ul>
+          </div>
+      </nav>
+
+      <!-- Haut de page -->
+      <div class="text">
+        <img src="./src/images/logo_vroum.png" alt="logo" style="max-width: 70px;">
+          <h2>VroumVroumGo</h2>
+          <div class="leX"><h1>X</h1></div>
+          <h1>BlaBlaCar</h1>
+          <span class="description">VroumVroumGo vous présente des moyens de déplacement durable.<br>Aujourd'hui, nous vous parlons de BlaBlaCar, une entreprise de covoiturage.<br> <strong>Découvrez son histoire.</strong></span>
+          <div class="button"><button onclick="window.location.href = './histoire.html';">En savoir plus</button></div>
+      </div>
+
+      <!-- Svg flèche arrondi et flèche pour descendre proch. section -->
+      <svg class="svg-down" width="192" height="61" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 160.7 61.5" enable-background="new 0 0 160.7 61.5" xml:space="preserve"><path fill="currentColor" d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z"></path></svg>
+      <div class="arrow-down">
+      </div>
+  </header>
+  <!--Fin Header-->
+
+  <!--Debut Section 1-->
+  <div class="about-us">
+      <div class="text">
+          <h2>Découvrez</h2>
+          <h3>Leurs services</h3>
+          <div><i class="fas fa-circle"></i></div>
+          <p>BlaBlaCar propose de multiples services.</p>
+          <div><a class="a-CTA" href="./services.html">En savoir plus</a></div>
+      </div>
+      <div class="image-container">
+          <div class="image image1" data-aos="fade-right" data-aos-duration="1000">
+              <img src="https://cdn-icons-png.flaticon.com/512/296/296216.png" style="max-width: 300px;" alt="Photo1.1">
+          </div>
+          <div class="image image2" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1500">
+              <img src="https://png.pngtree.com/png-vector/20191026/ourlarge/pngtree-young-cool-happy-guy-at-airport-with-suitcase-passport-tickets-vector-png-image_1847592.jpg    " style="max-width: 200px;" alt="Photo1.2">
+          </div>
+      </div>
+  </div>
+  <!--Fin Section 1-->
+
+  <!--Debut Interstice-->
+  <div class="partie1">
+      <div class="image"></div>
+      <div class="text">
+          <h2>Economiser</h2>
+          <h3>... et rencontrer</h3>
+      </div>
+  </div>
+  <!--Fin Interstice-->
+
+  <!--Debut quadrillage (section 2) -->
+  <div class="quadrillage">
+    <div class="quadrillage-image-container">
+        <div class="image" data-aos="fade-down-right" data-aos-delay="500" data-aos-duration="1000">
+            <img src="./src/images/90.png" alt="Photo2.3">
+        </div>
+        <div class="image" data-aos="fade-down-left" data-aos-delay="500" data-aos-duration="1000">
+            <img src="https://www.pngall.com/wp-content/uploads/2017/05/Percentage-Free-PNG-Image.png" alt="Photo2.6">
+        </div>
+        <div class="image" data-aos="fade-up-right" data-aos-delay="1300" data-aos-duration="1000">
+            <img src="./src/images/80.png" alt="Photo2.5">
+        </div>
+        <div class="image" data-aos="fade-up-left" data-aos-delay="1300" data-aos-duration="1000">
+            <img src="https://www.pngall.com/wp-content/uploads/2017/05/Percentage-Free-PNG-Image.png" alt="Photo2.7">
+        </div>  
+    </div>
+    <div class="text">
+        <h2>Statistiques</h2>
+        <h3>de BlaBlaCar</h3>
+        <div><i class="fas fa-circle"></i></div>
+        <p>BlaBlaCar est le leader mondial des sites de covoiturages.</p>
+        <div><a class="a-CTA" href="./statistiques.html">En savoir plus</a></div>
+    </div>
+  </div>
+  <!--Fin quadrillage (section 2) -->
+
+  <!--Debut deuxième Interstice -->
+  <div class="fixed-image">
+      <div class="text">
+          <h2>Vos trajets</h2>
+          <h3>à petit prix</h3>
+      </div>
+  </div>
+  <!--Fin deuxième Interstice-->
+
+  <!--Debut Section 3-->
+  <div class="economie">
+      <div class="text">
+          <h2>Économie</h2>
+          <h3>de BlaBlaCar</h3>
+          <div><i class="fas fa-circle"></i></div>
+          <p>BlaBlaCar, son développement, son internationalisation <br> et ce qu'on peut en tirer... </p>
+          <div><a class="a-CTA" href="./economie.html">En savoir plus</a></div>
+      </div>
+      <div class="image-container">
+          <div class="image image1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200">
+              <img src="./src/images/fred.png" style="max-width: 300px;border-radius: 5px;" alt="Photo3.2">
+            </div>
+            <div class="image image1" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200">
+              <img src="./src/images/Blablacar_monde.png" style="max-width: 300px;border-radius: 5px;" alt="Photo3.2">
+            </div>
+      </div>
+  </div>
+  <!--Fin Section 3-->
+
+  <!--Debut Footer-->
+  <footer>
+      <div class="contact-container">
+        <div class="social-media">
+            <h3>Retrouvez nous</h3>
+            <div class="links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <p>Auteur : FROEHLY Jean-Baptiste</p>
+          <div class="newsletter">
+            <h3>Nous contacter</h3>
+
+            <!-- c'est pour faire joli ça marche pas -->
+              <form method="post">
+                  <input type="email" name="email" placeholder="Type Your Email">
+                  <i class="fas fa-envelope"></i>
+              </form>
+          </div>
+      </div>
+  </footer>
+<!--Fin Footer-->
+
+<!--Debut crédits-->
+  <div class="copyright">
+        <!-- Svg flèche pour remonter la page -->
+      <svg class="svg-up" width="192" height="61" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 160.7 61.5" enable-background="new 0 0 160.7 61.5" xml:space="preserve"><path fill="#262526" d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z"></path></svg>
+      <i class="fas fa-angle-double-up arrow-up"></i>
+      <ul class="info">
+          <li>&copy; Groupe 10 </li>
+          <li>SAé1 BUT1 S1 Belfort</li>
+          <li>FULCRAND Lucas, FUMEY-JEAN JEAN Axel, MERAT Leslie, FROEHLY Jean-Baptiste</li>
+          <li>Lien du repository <a href="https://github.com/lfulcran-iut90/S1-2023-BlaBlaCar.git">GitHub</a></li>
+      </ul>
+  </div>
+  <!--Fin crédits-->
+
+  <!-- appel js (encore en dev.)-->
+  <script src="./src/scripts/script.js"></script>
+
+  <!-- Import et initialisation d'AOS -->
+  <script src="./src/scripts/aos.js"></script>
+  <script>AOS.init();</script>
+
+</body>
+</html>

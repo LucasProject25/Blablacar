@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Historique</title>
+    <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit = no">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="./src/images/logo_vroum_1.ico" type="image/x-icon">
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!-- Anim et autres  -->
+    <link rel="stylesheet" href="./src/styles/style_commun.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+
+    * {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    
+    h1{
+    color: #85007F;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    
+
+    .img-header{
+      background: url(./src/images/image_histoire.png) no-repeat fixed 10% -50px;
+      background-size: cover;
+      height: 500px;
+    }
+        
+    .section-header {
+      text-align: center;
+    }
+    .section-header h2 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: rgb(0, 0, 0);
+    }
+    
+    .bg-gradient_solid {
+      background-color:white;
+      color: #000000;
+      padding: 48px 0;
+    }
+    .steps {
+      position: relative;
+      margin-top: 32px;
+      margin-left : 100px;
+      align-items: center;
+    }
+    .steps::after {
+      content: "";
+      position: absolute;
+      width: 1px;
+      background-color: rgb(0, 0, 0);
+      opacity: 0.4;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+    }
+
+    .steps .content p {
+      color: #ffffff;
+      font-size: 16px;
+    }
+
+    .steps .content h2 {
+      font-weight: 600;
+      font-size: 22px;
+      color: #ffffff;
+    }
+
+    .steps-container {
+      position: relative;
+      background-color: inherit;
+      width: calc(50% + 32px);
+      margin-top: 150px;
+    }
+
+    .steps-container .content {
+      padding: 32px;
+      background-color: #b40034;
+      position: relative;
+      border-radius: 0px 0px 80px 0px;
+      box-shadow: 0px 16px 27px rgb(0 11 30 / 10%);
+    }
+
+    .steps .steps-container:nth-child(even) {
+      left: calc(50% - 32px);
+      flex-direction: row-reverse;
+    }
+
+    .steps-container {
+      display: flex;
+      margin-bottom: 50px;
+    }
+
+    .steps .steps-container .image {
+      font-weight: 900;
+      font-size: 20px;
+      margin-bottom: 10px;
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      z-index: 777;
+    }
+
+  .step-line {
+    width: 40px;
+    background-color: #000000;
+    height: 1px;
+    margin-top: 31px;
+    opacity: 0.4;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 767px) {
+    .steps::after {
+      left: 32px;
+    }
+    .steps-container {
+      left: 0;
+      flex-direction: row-reverse;
+      width: auto;
+      margin-bottom: 16px;
+    }
+    .steps .steps-container:nth-child(even) {
+      left: 0;
+    }
+    }
+        header {
+            background : none;
+        }
+
+        header .navigation-bar a {
+            color : #560FAF;
+        }
+        h2 {
+          color: #ffffff;
+        }
+
+        header nav {
+            background-color: white;
+            z-index: 99999;
+            
+        }
+
+        header nav.active .toggle span {
+            background-color: #000;
+        }
+    .about-us {
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+    }
+    .section-header {
+      margin-top: 50px;
+    }
+    
+ 
+    .section-header h2{
+      text-align: center;
+      font-size: 70px;
+      text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+      font-family: 'Segoe UI', sans-serif;
+
+    }
+    .image img{
+      position:absolute;
+      align-items: center;
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+      margin: 0 auto;
+      display: block;
+      box-shadow: 0 10px 30px rgb(0 0 0 / 15%), 0 1px 4px rgb(0 0 0 / 15%), 0 1px 0 rgb(0 0 0 / 7%);
+    }
+    .datep p strong{
+      color:#420a88;
+      font-size: 30px;
+    }
+   
+
+    </style>
+</head>
+<body class="stop-scroll unselectable">
+  <div class="loader-wrap">
+      <div class="loader">
+          <span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span>
+      </div>
+  </div>
+  <!--Fin loader-->
+
+ <!--Debut Header-->
+  <header>
+      <nav>
+          <div class="logo">
+              <a href="index.html"><img src="./src/images/logo_head_1.png" alt="Logo"></a>
+          </div>
+          <div class="toggle">
+              <span class="first"></span>
+              <span class="middle"></span>
+              <span class="last"></span>
+          </div>
+          <div class="navigation-bar">
+              <ul>
+                  <li><a href="./index.html">Accueil<span class="underline"></span></a></li>
+                  <li><a href="./services.html">Services<span class="underline"></span></a></li>
+                  <li class="active"><a href="./histoire.html">Histoire<span class="underline"></span></a></li>
+                  <li><a href="./statistiques.html">Statistiques<span class="underline"></span></a></li>
+                  <li><a href="./economie.html">Économie<span class="underline"></span></a></li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+  <!--Fin Header-->
+
+  <div class="about-us">
+    <div class="bg-gradient_solid">
+        <div class="img-header"></div>
+      <div class="container">
+        <div class="section-header">
+          <h1>Histoire</h1>
+        </div>
+        <div class="steps">
+          <div class="steps-container">
+            <div class="content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div class="datep"><p><strong>2006</strong></p></div>
+              <h2>Création de BlaBlaCar</h2>
+              <p>À l'époque, appelé Comuto et créé par Frédéric Mazzella, BlaBlaCar rachète covoiturage.fr.</p>
+            </div>
+            <i class="step-line"></i>
+            <div class="image">
+              <img src="./src/images/frederic_mazzela.jpg" alt="" height="170">
+            </div>
+          </div>
+          <div class="steps-container">
+            <div class="content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div class="datep"><p><strong>2008</strong></p></div>
+              <h2>Innovation du site</h2>
+              <p>Le site est amélioré, et de nombreuses fonctionnalités sont ajoutées, telles que la messagerie sécurisée, de nouveaux pictogrammes, ainsi qu'une calculatrice du prix du trajet et des coûts en pollution.</p>
+            </div>
+            <i class="step-line"></i>
+            <div class="image">
+              <img src="./src/images/image2.jpg" alt="">
+            </div>
+          </div>
+          <div class="steps-container">
+            <div class="content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div class="datep"><p><strong>2009</strong></p></div>
+              <h2>Croissance du site et arrivée sur iPhone</h2>
+              <p>Comuto innove son site pour ses clients importants tels qu'IKEA et Carrefour. De plus, grâce à ces clients, sa notoriété croît. La même année, l'application Comuto est lancée sur iPhone.</p>
+            </div>
+            <i class="step-line"></i>
+            <div class="image">
+              <img src="./src/images/image3.jpg" alt="">
+            </div>
+          </div>
+          <div class="steps-container">
+            <div class="content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div class="datep"><p><strong>2010</strong></p></div>
+              <h2>Lancement sur Androïd et prix reçu</h2>
+              <p>L'application Comuto est lancée en février 2010 sur Android. De plus, l'entreprise remporte de nombreux prix cette année-là, comme le Trophée du Tourisme responsable Voyages-sncf.com dans la catégorie éco-mobilité en octobre 2010. À la fin de cette année, Comuto compte plus de 700 000 membres !</p>
+            </div>
+            <i class="step-line"></i>
+            <div class="image">
+              <img src="./src/images/image4.jpg" alt="">
+            </div>
+          </div>
+          <div class="steps-container">
+            <div class="content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div class="datep"><p><strong>2011</strong></p></div>
+              <h2>L’année du 1er million de membres</h2>
+              <p>Cette année-là, Comuto compte un million de membres le 4 avril 2011 ! De plus, l'entreprise crée une version anglaise de son application. Cette année-là, Covoiturage.fr compte 30 salariés dans son équipe.</p>
+            </div>
+            <i class="step-line"></i>
+            <div class="image">
+              <img src="./src/images/image5.jpg" alt="">
+            </div>
+          </div>
+          <div class="steps-container">
+            <div class="content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div class="datep"><p><strong>2012</strong></p></div>
+              <h2>Croissance de l'entreprise</h2>
+              <p>Lancement de l'application en Italie en avril 2012 et en Pologne en octobre 2012. La même année, le nombre de membres dépasse les 2 millions.</p>
+            </div>
+            <i class="step-line"></i>
+            <div class="image">
+              <img src="./src/images/image6.jpg" alt="">
+            </div>
+          </div>
+          <div class="steps-container">
+            <div class="content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div class="datep"><p><strong>2013</strong></p></div>
+              <h2>Poursuite de l'expansion européenne</h2>
+              <p>Comuto est renommé BlaBlaCar en avril 2013. De plus, son expansion européenne continue en Allemagne le même mois de la même année. Le nombre de membres dépasse les 3 millions, et le nombre de salariés est passé à 85.</p>
+            </div>
+            <i class="step-line"></i>
+            <div class="image">
+              <img src="./src/images/image7.jpg" alt="">
+            </div>
+          </div>
+          <div class="steps-container">
+            <div class="content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div class="datep"><p><strong>2014</strong></p></div>
+              <h2>Développement de l'entreprise</h2>
+              <p>BlaBlaCar se lance en Ukraine et en Russie et envisage de se lancer au Brésil. En septembre 2014, BlaBlaCar compte 10 millions d'utilisateurs.</p>
+            </div>
+            <i class="step-line"></i>
+            <div class="image">
+              <img src="./src/images/image8.jpg" alt="">
+            </div>
+          </div>
+          <div class="steps-container">
+            <div class="content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div class="datep"><p><strong>2015</strong></p></div>
+              <h2>BlaBlaCar sort de l'Europe</h2>
+              <p>En janvier 2015, BlaBlaCar s'ouvre sur l'Inde, puis l'entreprise rachète son concurrent hongrois présent en Hongrie, en Roumanie et dans les pays des Balkans. De plus, le rachat de Rides permet à BlaBlaCar de se développer au Mexique et d'atteindre les 20 millions de membres. Cette année-là, la SNCF propose un partenariat à l'entreprise de covoiturage pour proposer des alternatives lors des grèves.</p>
+            </div>
+            <i class="step-line"></i>
+            <div class="image">
+              <img src="./src/images/image9.jpg" alt="">
+            </div>
+          </div>
+          <div class="steps-container">
+            <div class="content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div class="datep"><p><strong>2016</strong></p></div>
+              <h2>Partenariat et changement au sein de l'entreprise</h2>
+              <p>En octobre 2016, BlaBlaCar signe un partenariat en France avec les sites Kombo et GoEuro, basé sur une rémunération à la mise en relation. À l'automne de la même année, Frédéric Mazzella cède sa place de directeur à Nicolas Brusson pour devenir président de la société.</p>
+            </div>
+            <i class="step-line"></i>
+            <div class="image">
+              <img src="./src/images/image10.png" alt="">
+            </div>
+          </div>
+          <div class="steps-container">
+            <div class="content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div class="datep"><p><strong>2018</strong></p></div>
+              <h2>Sécurisation d'utilisation de BlaBlaCar</h2>
+              <p>En avril 2018, l'entreprise annonce le rachat de Less afin de faire profiter le service BlaBlaLines des technologies et des ingénieurs de Less. Une loi qui oblige la SNCF à annoncer ses grèves favorise le covoiturage. BlaBlaCar lance une nouvelle assurance pour ses covoitureurs en partenariat avec Axa. En novembre 2018, BlaBlaCar rachète Ouibus à la SNCF et le renomme BlaBlaBus.</p>
+            </div>
+            <i class="step-line"></i>
+            <div class="image">
+              <img src="./src/images/image11.jpg" alt="">
+            </div>
+          </div>
+          <div class="steps-container">
+            <div class="content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div class="datep"><p><strong>2020</strong></p></div>
+              <h2>L'impact du Covid-19</h2>
+              <p>La société complète son offre par un partenariat avec un service de trottinettes électriques, BlaBlaRide, afin de permettre aux usagers de finir les trajets automobiles effectués. Durant la pandémie de Covid-19, le fonctionnement de l'entreprise se réduit à 5 % de l'activité habituelle, et la moitié des employés sont mis au chômage partiel. Elle est contrainte d'appliquer des mesures de respect des distanciations et propose donc une option pour limiter le nombre de passagers.</p>
+            </div>
+            <i class="step-line"></i>
+            <div class="image">
+              <img src="./src/images/image12.jpg" alt="">
+            </div>
+          </div>
+          <div class="steps-container">
+            <div class="content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div class="datep"><p><strong>2023</strong></p></div>
+              <h2>Rachat de Klaxit et objectif 2024</h2>
+              <p>Cette année, BlaBlaCar a racheté Klaxit, une société de covoiturage. Le géant du covoiturage envisage, avec cette acquisition, de développer les services proposés par BlaBlaCar Daily. Dans un souci de simplicité, l'entreprise prévoit de créer une application unique de BlaBlaCar d'ici 2024.</p>
+            </div>
+            <i class="step-line"></i>
+            <div class="image">
+              <img src="./src/images/image13.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <footer>
+      <div class="contact-container">
+        <div class="social-media">
+            <h3>Retrouvez nous</h3>
+            <div class="links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <p style="color : #d5d5d5;line-height: 27px;">Auteur : MERAT Leslie</p>
+          <div class="newsletter">
+            <h3>Nous contacter</h3>
+
+            <!-- c'est pour faire joli ça marche pas -->
+              <form method="post">
+                  <input type="email" name="email" placeholder="Type Your Email">
+                  <i class="fas fa-envelope"></i>
+              </form>
+          </div>
+      </div>
+  </footer>
+<!--Fin Footer-->
+
+<!--Debut crédits-->
+  <div class="copyright">
+        <!-- Svg flèche pour remonter la page -->
+      <svg class="svg-up" width="192" height="61" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 160.7 61.5" enable-background="new 0 0 160.7 61.5" xml:space="preserve"><path fill="#262526" d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z"></path></svg>
+      <i class="fas fa-angle-double-up arrow-up"></i>
+      <ul class="info">
+          <li>&copy; Groupe 10 </li>
+          <li>SAé1 BUT1 S1 Belfort</li>
+          <li>FULCRAND Lucas, FUMEY-JEAN JEAN Axel, MERAT Leslie, FROEHLY Jean-Baptiste</li>
+          <li>Lien du repository <a href="https://github.com/lfulcran-iut90/S1-2023-BlaBlaCar.git">GitHub</a></li>
+      </ul>
+  </div>
+  <!--Fin crédits-->
+
+  <!-- libs js -->
+  <script src="js/main.js"></script>
+  <script src="js/main.min.js"></script>
+  <script src="./src/scripts/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+
+</body>
+</html>

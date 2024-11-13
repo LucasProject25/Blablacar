@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/******* Titre *******/
+
+.title{ 
+    background: url(../images/image_fond.png) no-repeat fixed 10% -150px;
+    background-size: cover;
+    height: 550px;
+}
+
+h1{
+    color: #85007F;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+/******* Page *******/
+
+main{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+strong{
+    color: #b40034;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h2{
+    margin-bottom: 2%;
+    color: #85007f;
+}
+
+main img{
+    height: 250px;
+    margin: 2%;
+    border-radius: 30px;
+    box-shadow: -10px 15px 50px rgba(0, 0, 0, 0.5);
+}
+
+hr{
+    border: solid 1px #85007F;
+    width: 100%;
+}
+
+.texte{
+    text-align: justify;
+    padding: 2em;
+}
+
+section a{
+    color: #420a88;
+    text-decoration: none;
+}
+
+section a:hover{
+    color: #B227AB;
+}
+
+.texte .all_logo{
+    display:flex;
+}
+
+.all_logo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.all_logo a{
+    display: inline-block;
+    margin-left: 10px;
+    width: 9%;
+}
+.all_logo img{
+    height: 100px;
+}
+
+.all_logo a:hover{
+    animation: respire 2s ease-in-out infinite;
+}
+
+@keyframes respire {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+
