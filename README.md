@@ -2,7 +2,7 @@
 
 ## Présentation 
 
-Ce dépôt correspond à un site web créé en **HTML/CSS/JS** dans le cadre d'une SAÉ **(Situation d'Apprentissage et Évaluation)** dans un groupe de 4 étudiants. Ce site présente des informations concernant l'entreprise BlaBlaCar et sert de vitrine pour présenter l'entreprise, ses activités, son organisation et son historique. Le nom de notre site s'appelle : [VroumVroumGo](https://lucasproject25.github.io/VroumVroumGo/Site/index.html)
+Ce dépôt correspond à un site web créé en **HTML/CSS/JS** dans le cadre d'une **SAÉ (Situation d'Apprentissage et Évaluation)** dans un groupe de 4 étudiants. Ce site présente des **informations** concernant l'entreprise BlaBlaCar et sert de **vitrine pour présenter** l'entreprise, **ses activités**, **son organisation et son historique**. Le nom de notre site s'appelle : [VroumVroumGo](https://lucasproject25.github.io/VroumVroumGo/Site/index.html) car il nous a été imposés de choisir un nom d'entreprise afin de présenter BlaBlaCar.
 
 ## Choix de conception  
 
@@ -10,6 +10,6 @@ Pour la conception du site, nous nous sommes inspirés du site officiel de [BlaB
 
 ## Ma réalisation
 
-Lors de ce projet, j'ai participé à la conception de la page des services de notre site. Cette page affichait les différents services que propose l'entreprise de **BlaBlaCar**.
+Lors de ce projet, j'ai participé à la conception de la page des services de VroumVroumGo, elle affiche et décrit les différents services que propose l'entreprise *BlaBlaCar*.
 
 Pour accéder directement à ma page : [Services](https://lucasproject25.github.io/VroumVroumGo/Site/services.html)
